@@ -6,7 +6,7 @@
 MCL_STDC_BEGIN
 
 typedef struct WifiMsg{
-	int x, y, action;
+	int command, x, y, action;
 }WifiMsg;
 
 void send_msg(const WifiMsg* msg);
